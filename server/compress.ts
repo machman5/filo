@@ -12,7 +12,7 @@ export function compress(req: any, res: express.Response, input: any) {
 
     // whatever happens, we ignore Bandwidth Hero's settings and just spew out WebP.
     // we're doing this because we want to maintain compatibility with the project we derive in
-    const format = 'webp';
+    const format = req.params.webp ? 'webp' : 'jpeg'
 
     sharp(input).toFormat(format, { quality: req.params.quality, progressive: true, optimiseScans: true })
                 .toBuffer((e, o ,i) => {
