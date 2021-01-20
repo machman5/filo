@@ -9,7 +9,7 @@
      "addons": ["memcachier"],
     "formation": {
         "web": {
-            "quantity": 1
+            "quantity": 2
         }
     }
 }
