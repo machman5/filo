@@ -12,6 +12,19 @@ Most times, websites that has large bundles times out on slow connections, or ev
 
 This should be used with a browser extension, which is in the works.
 
+
+
+## Deployment
+
+### Heroku
+
+You can deploy this service to Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ayastreb/bandwidth-hero-proxy)
+
+[![Deploy to Heroku guide](http://img.youtube.com/vi/y3tkYEXAics/0.jpg)](http://www.youtube.com/watch?v=y3tkYEXAics)
+
+
 ## Running
 
 TBA
